@@ -1,0 +1,71 @@
+
+body {
+    font-family: "Open Sans", sans-serif;
+    color: #4d4d4d;
+    background: #ffffff;
+    background-image: url("../img/colors.PNG");
+    background-attachment: fixed;
+    font-size: 1rem; /* 1rem = 16px */
+    line-height: 1.5;
+}
+
+@media (min-width: 768px) {
+    body {
+        font-size: 1.125rem;
+    }
+}
+
+a {
+    color: #007db5;
+}
+
+a:hover,
+a:focus {
+    color: #007db5;
+    text-decoration: underline;
+}
+
+
+b, strong {
+    font-weight: 600;
+}
+
+#headline h1 {
+    font-weight: 600;
+    text-align: center;
+}
+
+#headline h1 span:nth-child(3n+1) {
+    color: gold;
+}
+#headline h1 span:nth-child(3n+2) {
+    color: aqua;
+}
+#headline h1 span:nth-child(3n+3) {
+    color: #26dd26;
+}
+
+
+
+
+#creation {
+    margin: 20px;
+    text-align: center;
+    background-image: url("../img/colors.png")
+}
+
+#fillertext {
+    margin: 100px;
+    text-align: left;
+}
+
+.border {
+    border: 2px solid #000;
+}
+
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    background-image: url("../img/colors.png")
+}
